@@ -23,3 +23,4 @@ signUpForm.addEventListener('submit', async (e) => {
         location.replace('/other-page');
     }
 });
+
