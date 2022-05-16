@@ -31,7 +31,7 @@ body {
     background-color: var(--color2);
 }
 
-main {
+.auth-main {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +78,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
