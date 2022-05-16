@@ -32,7 +32,11 @@ export async function checkAuth() {
     if (!user) location.replace('/');
 }
 
-export async function redirectIfLoggedIn() {}
+export async function redirectIfLoggedIn() {
+    if (getUser()) {
+        location.replace('./other-page');
+    }
+}
 
 export async function logout() {
     await client.auth.signOut();
